@@ -3,8 +3,8 @@
 # Description:         Format lines to describe directory text lines.
 # Original Author:     Dale M. Amon
 # Revised by:          $Author: amon $ 
-# Date:                $Date: 2008-07-27 15:16:17 $ 
-# Version:             $Revision: 1.6 $
+# Date:                $Date: 2008-08-28 23:35:28 $ 
+# Version:             $Revision: 1.7 $
 # License:	       LGPL 2.1, Perl Artistic or BSD
 #
 #=============================================================================
@@ -551,6 +551,10 @@ FileHash::Entry object.
 
  Lots.
 
+=head1 KNOWN BUGS
+
+ See TODO.
+
 =head1 SEE ALSO
 
  File::Spec, HTTP::Date, Fault::Notepad, Fault::Logger
@@ -565,6 +569,9 @@ Dale Amon <amon@vnl.com>
 #                                CVS HISTORY
 #=============================================================================
 # $Log: FormatString.pm,v $
+# Revision 1.7  2008-08-28 23:35:28  amon
+# perldoc section regularization.
+#
 # Revision 1.6  2008-07-27 15:16:17  amon
 # Wrote lexical parse for Entry; error checking on eval and other minor issues.
 #

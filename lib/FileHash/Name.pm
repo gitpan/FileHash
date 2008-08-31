@@ -3,8 +3,8 @@
 # Description:         Generalized hash by full path of file information.
 # Original Author:     Dale M. Amon
 # Revised by:          $Author: amon $ 
-# Date:                $Date: 2008-08-04 12:15:12 $ 
-# Version:             $Revision: 1.6 $
+# Date:                $Date: 2008-08-28 23:35:28 $ 
+# Version:             $Revision: 1.7 $
 # License:	       LGPL 2.1, Perl Artistic or BSD
 #
 #=============================================================================
@@ -100,6 +100,10 @@ it will generate a name of "" for the key.
 
  Lots.
 
+=head1 KNOWN BUGS
+
+ See TODO.
+
 =head1 SEE ALSO
 
  FileHash::Base, FileHash::Entry.
@@ -114,6 +118,9 @@ Dale Amon <amon@vnl.com>
 #                                CVS HISTORY
 #=============================================================================
 # $Log: Name.pm,v $
+# Revision 1.7  2008-08-28 23:35:28  amon
+# perldoc section regularization.
+#
 # Revision 1.6  2008-08-04 12:15:12  amon
 # Changed 'use' list.
 #

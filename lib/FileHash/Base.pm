@@ -3,8 +3,8 @@
 # Description:         Generalized hash by full path of file information.
 # Original Author:     Dale M. Amon
 # Revised by:          $Author: amon $ 
-# Date:                $Date: 2008-08-09 20:25:13 $ 
-# Version:             $Revision: 1.9 $
+# Date:                $Date: 2008-08-28 23:35:28 $ 
+# Version:             $Revision: 1.10 $
 # License:	       LGPL 2.1, Perl Artistic or BSD
 #
 #=============================================================================
@@ -609,6 +609,10 @@ and crash the program.
 
  Lots.
 
+=head1 KNOWN BUGS
+
+ See TODO.
+
 =head1 SEE ALSO
 
   File::Spec, Cwd, FileHash::Entry, FileHash::FormatString, Fault::Logger.
@@ -623,6 +627,9 @@ Dale Amon <amon@vnl.com>
 #                                CVS HISTORY
 #=============================================================================
 # $Log: Base.pm,v $
+# Revision 1.10  2008-08-28 23:35:28  amon
+# perldoc section regularization.
+#
 # Revision 1.9  2008-08-09 20:25:13  amon
 # Documentation error fixed.
 #

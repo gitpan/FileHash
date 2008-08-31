@@ -3,8 +3,8 @@
 # Description:         Generate reports from a FileHash.
 # Original Author:     Dale M. Amon
 # Revised by:          $Author: amon $ 
-# Date:                $Date: 2008-08-04 12:13:46 $ 
-# Version:             $Revision: 1.7 $
+# Date:                $Date: 2008-08-28 23:35:28 $ 
+# Version:             $Revision: 1.8 $
 # License:	       LGPL 2.1, Perl Artistic or BSD
 #
 #=============================================================================
@@ -173,8 +173,11 @@ group on output.
 
  Lots.
 
-=head1 SEE ALSO
+=head1 KNOWN BUGS
 
+ See TODO.
+
+=head1 SEE ALSO
 
  FileHash::Base, Fault::Logger.
 
@@ -188,6 +191,9 @@ Dale Amon <amon@vnl.com>
 #                                CVS HISTORY
 #=============================================================================
 # $Log: Report.pm,v $
+# Revision 1.8  2008-08-28 23:35:28  amon
+# perldoc section regularization.
+#
 # Revision 1.7  2008-08-04 12:13:46  amon
 # Moved logical unary and binary ops to FileHash; created an internal common hash bucket print method.
 #

@@ -3,8 +3,8 @@
 # Description:         Generalized hash by md5sum and length of file info.
 # Original Author:     Dale M. Amon
 # Revised by:          $Author: amon $ 
-# Date:                $Date: 2008-08-04 12:14:34 $ 
-# Version:             $Revision: 1.6 $
+# Date:                $Date: 2008-08-28 23:35:28 $ 
+# Version:             $Revision: 1.7 $
 # License:	       LGPL 2.1, Perl Artistic or BSD
 #
 #=============================================================================
@@ -106,6 +106,10 @@ the key.
 
  Lots.
 
+=head1 KNOWN BUGS
+
+ See TODO.
+
 =head1 SEE ALSO
 
  FileHash::Base, FileHash::Entry.
@@ -120,6 +124,9 @@ Dale Amon <amon@vnl.com>
 #                                CVS HISTORY
 #=============================================================================
 # $Log: Content.pm,v $
+# Revision 1.7  2008-08-28 23:35:28  amon
+# perldoc section regularization.
+#
 # Revision 1.6  2008-08-04 12:14:34  amon
 # Syntax bug fix.
 #

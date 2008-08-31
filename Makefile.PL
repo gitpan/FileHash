@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2008 FileHash.
+# Copyright (C) 2008 DMA.
 #
 
 use ExtUtils::MakeMaker;

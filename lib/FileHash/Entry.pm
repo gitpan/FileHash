@@ -3,8 +3,8 @@
 # Description:         Container for data about a file.
 # Original Author:     Dale M. Amon
 # Revised by:          $Author: amon $ 
-# Date:                $Date: 2008-08-09 12:56:42 $ 
-# Version:             $Revision: 1.7 $
+# Date:                $Date: 2008-08-28 23:35:28 $ 
+# Version:             $Revision: 1.8 $
 # License:	       LGPL 2.1, Perl Artistic or BSD
 #
 #=============================================================================
@@ -604,6 +604,10 @@ override this method.
 
  Lots.
 
+=head1 KNOWN BUGS
+
+ See TODO.
+
 =head1 SEE ALSO
 
  File::Spec, Digest::MD5, Fault::Notepad, Fault::Logger, 
@@ -619,6 +623,9 @@ Dale Amon <amon@vnl.com>
 #                                CVS HISTORY
 #=============================================================================
 # $Log: Entry.pm,v $
+# Revision 1.8  2008-08-28 23:35:28  amon
+# perldoc section regularization.
+#
 # Revision 1.7  2008-08-09 12:56:42  amon
 # Added parens to fix math error.
 #
